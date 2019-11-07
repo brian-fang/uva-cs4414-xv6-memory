@@ -1,0 +1,11 @@
+
+syscall.h:#define SYS_writecount 24 st gpi dpt
+user.h:int writecount(void); st gpi dpt
+syscall.c:extern int sys_writecount(void); st gpi dpt
+syscall.c:[SYS_writecount] sys_writecount, st gpi dpt
+
+
+sysfile.c:sys_writecount(void) {
+(sysproc.c)
+
+usys.s
